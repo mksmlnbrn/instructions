@@ -31,7 +31,20 @@ Before the bootcamp starts, please ensure the following:
   
   Create a free GitHub account if you don’t already have one.
 
-* GitHub Account
+* Install VirtualBox
+  
+  Download and install VirtualBox for your operating system (Windows, macOS, or Linux).
+  
+  Ensure you have sufficient disk space (at least 10–15 GB) to import the virtual machine.
+
+* Import the Pre-Configured Virtual Machine
+
+    Download the .vbox file provided by the bootcamp organizers
+    [link](https://example.com/virtualbox-image)
+    
+    In VirtualBox, go to File > Import Appliance (or a similar option) and select the downloaded file.
+    
+    Follow the prompts to complete the import.
 
 # Steps to Follow
 
