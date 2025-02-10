@@ -17,11 +17,9 @@ Welcome to the DevOps Bootcamp! This bootcamp is designed to give you hands-on e
 
 * A laptop.
 * A GitHub account (free).
-* Pre-Configured VirtualBox Image (Recommended):
   
-  We will provide a downloadable VirtualBox image that includes all necessary software (Git, Node.js, text editor, Docker, etc.).
   
-  This ensures everyone has a uniform environment, reducing setup issues.
+  During the workshop we will work on GitHub Codespaces. This ensures everyone has a uniform environment, reducing setup issues.
 
 ## Technical Setup
 
@@ -31,20 +29,6 @@ Before the bootcamp starts, please ensure the following:
   
   Create a free GitHub account if you don’t already have one.
 
-* Install VirtualBox
-  
-  Download and install VirtualBox for your operating system (Windows, macOS, or Linux).
-  
-  Ensure you have sufficient disk space (at least 10–15 GB) to import the virtual machine.
-
-* Import the Pre-Configured Virtual Machine
-
-    Download the .vbox file provided by the bootcamp organizers
-    [link](https://example.com/virtualbox-image)
-    
-    In VirtualBox, go to File > Import Appliance (or a similar option) and select the downloaded file.
-    
-    Follow the prompts to complete the import.
 
 # Steps to Follow
 
@@ -70,3 +54,12 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 | 2:40 - 3:00    | Summary & Closing Remarks                      |
 
 ## Step-by-Step Instructions
+
+1. Join Bootcamp2025-Pega organisation. In here you can find 3 repositories:
+2. For detailed instructions choose "instructions" repository. In here you can find the instruction you are already reading - hello! Also, check out presentation devops_sdl.pdf.
+3. The app we will be developing is located in movie-night-planner repo.
+   ![image](https://github.com/user-attachments/assets/1489cc61-f042-4c0c-97cd-65c3474f28e6)
+   You can find URLs to clone this repository under green CODE button. You will also find there Codespaces tab, where you can access remote developmnet environment.
+   ![image](https://github.com/user-attachments/assets/e69d5159-18d2-41c5-bcdd-839c5d4f3338)
+   To open it on web browser you only need to click on the name "workshop". 
+
