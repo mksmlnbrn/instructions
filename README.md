@@ -58,12 +58,12 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 
 ## 3.2. Module 2: Setting Up a GitHub Repository
 
-1.  **Navigate to the Bootcamp Organization:**
+1.  **Navigate to the Bootcamp Organization**
 
   *   Go to the [Bootcamp2025-Pega organization on GitHub](https://github.com/Bootcamp2025-Pega).
   *   If you've provided your GitHub username to the organizers, you should already be a member. If not, please inform the organizers to be added.
   
-2.  **Navigate to the Instructions Repository:**
+2.  **Navigate to the Instructions Repository**
 
   *   For detailed instructions, refer to the [instructions repository](https://github.com/Bootcamp2025-Pega/instructions). This is the document you are currently reading.
 
@@ -74,14 +74,16 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 4. **Create your own fork of movie-night-planner repository**
 
    * 1. **Click the "Fork" button:**  In the top-right corner of the repository page, click the "Fork" button.
+  ![Create a fork button](img/create-fork-button.png)
    * 3. **Select the organization:** Choose the organization **Bootcamp2025-Pega** to fork the repository into.
    * 4. **Rename the repository:** In the "Repository name" field, enter the name for the forked repository, following the pattern `movie-night-planner-{username}`, replacing `{username}` with your GitHub username.
+  ![Create a fork](img/create-fork.png)
    * 5. **Create the fork:** Click the "Create fork" button.
 
 
 
 
-5. The app we will be developing is located in movie-night-planner repo.
+1. The app we will be developing is located in movie-night-planner repo.
    ![image](https://github.com/user-attachments/assets/1489cc61-f042-4c0c-97cd-65c3474f28e6)
    You can find URLs to clone this repository under green CODE button. You will also find there Codespaces tab, where you can access remote developmnet environment.
    ![image](https://github.com/user-attachments/assets/e69d5159-18d2-41c5-bcdd-839c5d4f3338)
