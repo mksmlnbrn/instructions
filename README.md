@@ -58,9 +58,30 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 
 ## 3.2. Module 2: Setting Up a GitHub Repository
 
-1. Join Bootcamp2025-Pega organisation. In here you can find 3 repositories:
-2. For detailed instructions choose "instructions" repository. In here you can find the instruction you are already reading - hello! Also, check out presentation devops_sdl.pdf.
-3. The app we will be developing is located in movie-night-planner repo.
+1.  **Navigate to the Bootcamp Organization:**
+
+  *   Go to the [Bootcamp2025-Pega organization on GitHub](https://github.com/Bootcamp2025-Pega).
+  *   If you've provided your GitHub username to the organizers, you should already be a member. If not, please inform the organizers to be added.
+  
+2.  **Navigate to the Instructions Repository:**
+
+  *   For detailed instructions, refer to the [instructions repository](https://github.com/Bootcamp2025-Pega/instructions). This is the document you are currently reading.
+
+3.  **Navigate to the movie-night-planner application repository**
+
+  *  Please see [movie-night-planner repository](https://github.com/Bootcamp2025-Pega/movie-night-planner). This is a repository with the application we will be working on. This is an interactive UI-based application where users can build and manage a personal movie watchlist.
+
+4. **Create your own fork of movie-night-planner repository**
+
+   * 1. **Click the "Fork" button:**  In the top-right corner of the repository page, click the "Fork" button.
+   * 3. **Select the organization:** Choose the organization **Bootcamp2025-Pega** to fork the repository into.
+   * 4. **Rename the repository:** In the "Repository name" field, enter the name for the forked repository, following the pattern `movie-night-planner-{username}`, replacing `{username}` with your GitHub username.
+   * 5. **Create the fork:** Click the "Create fork" button.
+
+
+
+
+5. The app we will be developing is located in movie-night-planner repo.
    ![image](https://github.com/user-attachments/assets/1489cc61-f042-4c0c-97cd-65c3474f28e6)
    You can find URLs to clone this repository under green CODE button. You will also find there Codespaces tab, where you can access remote developmnet environment.
    ![image](https://github.com/user-attachments/assets/e69d5159-18d2-41c5-bcdd-839c5d4f3338)
