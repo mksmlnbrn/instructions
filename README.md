@@ -80,14 +80,23 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
   ![Create a fork](img/create-fork.png)
    * 5. **Create the fork:** Click the "Create fork" button.
 
+5. **Navigate to your repository and get familiar with project**
 
+  * 1. **Navigate to your forked repository:** Go to your personal fork of the `movie-night-planner` repository (named `movie-night-planner-{username}`) on GitHub.
+  * 2. **Explore the codebase:** Familiarize yourself with the project structure, files, and code. Pay attention to the `README.md` file, which provides an overview of the application.
 
+6. **Run application in Codespaces**
 
-1. The app we will be developing is located in movie-night-planner repo.
-   ![image](https://github.com/user-attachments/assets/1489cc61-f042-4c0c-97cd-65c3474f28e6)
-   You can find URLs to clone this repository under green CODE button. You will also find there Codespaces tab, where you can access remote developmnet environment.
-   ![image](https://github.com/user-attachments/assets/e69d5159-18d2-41c5-bcdd-839c5d4f3338)
-   To open it on web browser you only need to click on the name "workshop". 
+    * 1.  **Open Codespaces:** Navigate to your forked `movie-night-planner-{username}` repository on GitHub. Click on the green "Code" button.
+    * 2.  **Create new Codespace:** Select the "Codespaces" tab and click on "Create codespace on main". This will start a new cloud-based development environment.
+    ![Create codespace](img/create-codespace.png)
+    * 3.  **Wait for Codespace to initialize:** GitHub will set up a virtual machine and automatically clone your repository into it. This process may take a few minutes.
+    * 4.  **Run the application:** Once the Codespace is ready, navidate to a terminal.  
+    
+    **TODO**
+    
+    * 5.  **Access the application:** Once the application is running, Codespaces will provide a URL to access it. Check the terminal output for the URL. Click on the URL to open the application in a new browser tab.
+    ![Forwarded port](img/forwarded-port.png) (**TODO**).
 
 ## 3.3. Module 3: Implementing CI/CD with GitHub Actions
 
