@@ -96,7 +96,7 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
     # Run backend
     cd backend && docker-compose up
     # Run frontend
-    cd .. && npm run devs
+    cd .. && npm run dev
     ```
     
     **TODO**
