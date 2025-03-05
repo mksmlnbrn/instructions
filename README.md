@@ -42,15 +42,15 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 
 ## 2.2. Daily Schedule (3-Hour Workshop)
 
-| Time (Approx.) | Activity                                       |
-| -------------- | ---------------------------------------------- |
-| 0:00 - 0:10    | Welcome & Objectives                           |
-| 0:10 - 0:20    | DevOps & SDLC Overview                         |
-| 0:20 - 0:30    | GitHub Repository and Environment Setup        |
-| 0:30 - 2:00    | Implementing CI/CD with GitHub Actions         |
-| 2:00 - 2:20    | Deployment                                     |
-| 2:20 - 2:40    | Q&A                                            |
-| 2:40 - 3:00    | Summary & Closing Remarks                      |
+| Time (Approx.) | Activity                                |
+| -------------- | --------------------------------------- |
+| 0:00 - 0:10    | Welcome & Objectives                    |
+| 0:10 - 0:20    | DevOps & SDLC Overview                  |
+| 0:20 - 0:30    | GitHub Repository and Environment Setup |
+| 0:30 - 2:00    | Implementing CI/CD with GitHub Actions  |
+| 2:00 - 2:20    | Deployment                              |
+| 2:20 - 2:40    | Q&A                                     |
+| 2:40 - 3:00    | Summary & Closing Remarks               |
 
 # 3. Steps to Follow
 
@@ -91,7 +91,13 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
     * 2.  **Create new Codespace:** Select the "Codespaces" tab and click on "Create codespace on main". This will start a new cloud-based development environment.
     ![Create codespace](img/create-codespace.png)
     * 3.  **Wait for Codespace to initialize:** GitHub will set up a virtual machine and automatically clone your repository into it. This process may take a few minutes.
-    * 4.  **Run the application:** Once the Codespace is ready, navidate to a terminal.  
+    * 4.  **Run the application:** Once the Codespace is ready, navigate to a terminal. Run commands:
+    ```bash
+    # Run backend
+    cd backend && docker-compose up
+    # Run frontend
+    cd .. && npm run devs
+    ```
     
     **TODO**
     
@@ -100,8 +106,16 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 
 ## 3.3. Module 3: Implementing CI/CD with GitHub Actions
 
+We
+
 ### 3.3.1. Basic build pipeline
 
+Goal: Create basic pipeline that builds project and execute tests.
+
+1.  **Create a base workflow**
+
+
+  
 ### 3.3.2. Execute Unit Tests
 
 ### 3.3.3. Verify pull request
