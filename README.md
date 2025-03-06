@@ -121,6 +121,30 @@ Goal: Create basic pipeline that builds project and execute tests.
 ### 3.3.3. Verify pull request
 
 ### 3.3.4. Static Code Analysis
+#### **SonarCloud**
+SonarCloud is a cloud-based service designed to continuosly inspect your cose for quality and security issues. What it does:
+* Code Quality Analisys: scans code to detect bugs, code smells, and vulnerabilities
+* Integration: easy integration with CI/CD pipelines, and tools like Github, Bitbucket, Azure DevOps
+* Pull Request decoration: It can provide comments on pull requests with summary of its results
+* Dashboard: Detailed dashboard is available
+
+#### **Integrate SonarCloud to your project**
+In order to integrate Sonar into your project follow those steps:
+1. Go to SonarCould [login page](https://sonarcloud.io/login)
+2. Choose login with Github
+![Login with Github](img/sonar-loging.png)
+3. Grand SonarQubeCloud necessary permissions
+![Sonar permisions](img/sonar-authorize.png)
+4. Connect to bootcamp org //TODO!
+5. Generate token. In order to connect Github and Sonar you need to generate token:
+* First go to My Account
+![My Acocunt](img/generate-token-account.png)
+* Go to Security tab, enter token name of your choosing, generate token
+![Security tab](img/sonar-generating-token.png)
+6. Now you need to add token to Github secrets. Enter name and contents of your secret.
+![Github token](img/sonar-adding-token.png)
+7. You are all set!
+
 
 ### 3.3.5. Test Coverage
 
