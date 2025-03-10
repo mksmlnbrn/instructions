@@ -45,7 +45,7 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 | Time (Approx.) | Activity                                |
 | -------------- | --------------------------------------- |
 | 0:00 - 0:10    | Welcome                                 |
-| 0:10 - 0:20    | SDLC Overview                           |
+| 0:10 - 0:20    | [SDLC Overview](https://bootcamp2025-pega.github.io/instructions/) |
 | 0:20 - 0:30    | GitHub Repository and Environment Setup |
 | 0:30 - 2:00    | Implementing CI/CD with GitHub Actions  |
 | 2:00 - 2:30    | Deployment                              |
