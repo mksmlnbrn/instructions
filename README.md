@@ -105,7 +105,7 @@ Below is a high-level breakdown of the 3-hour bootcamp session:
 
 ## 3.3. Module 3: Implementing CI/CD with GitHub Actions
 
-We
+# TODO
 
 ### 3.3.1. Basic build pipeline
 
