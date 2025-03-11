@@ -296,7 +296,7 @@ echo $VERCEL_TOKEN
 ```bash
 npm i -g vercel
 vercel --version
-vercel link --token=$VERCEL_API_TOKEN
+vercel link --token=$VERCEL_TOKEN
 ```
 Accept default values. After finishing you should see:
 ![link](img/vercel-link.png)
@@ -332,7 +332,8 @@ This guide explains the steps to setup Prisma and create database schema.
 
 1. Go to `Codespaces` and execute command
 ```bash
-npm install prisma --save-dev --legacy-peer-deps
+npm i prisma --save-dev --legacy-peer-deps
+npm i @prisma/client@6.5.0 --legacy-peer-deps
 ```
 
 ### 2. Generate schema
