@@ -242,7 +242,6 @@ This guide explains how to securely store access token, in your GitHub repositor
 
 # How to set up your Vercel Postgres database
 
-# How to Create a Vercel Postgres Database
 
 This guide explains the steps to set up a Vercel Postgres database for your project.
 
@@ -278,6 +277,73 @@ This guide explains the steps to set up a Vercel Postgres database for your proj
 ![db3](img/vercel-db3.png)
   
 > **Important**: We just created db but is  it not connected to any project yet.
+
+
+# How to add your GitHub project to Vercel and connect to database
+
+
+This guide explains the steps to connect your GitHub project with arleady created db.
+
+### 1. Link project
+
+1. Go to your GitHub project, open `Codespaces`.
+2. Export VERCEL_TOKEN
+```bash
+export VERCEL_TOKEN=<past_your_vercel_token>
+echo $VERCEL_TOKEN
+```
+3. Install Vercel cli and link your project
+```bash
+npm i -g vercel
+vercel --version
+vercel link --token=$VERCEL_API_TOKEN
+```
+Accept default values. After finishing you should see:
+![link](img/vercel-link.png)
+
+### 2. Add secrets to your GiHub project
+
+1. Go to directory `.vercel` and open file `project.json`
+2. Add next secrets into you GitHub project:
+- `VERCEL_PROJECT_ID` - copy value from `project.json` file from key `projectId`
+- `VERCEL_ORG_ID` - copy value from `project.json` file from key `orgId`
+
+### 3. Connect project to database
+
+1. Go to your Vercel page, go to `Storage` and click button `Connect Project`
+![connect-project1](img/connect-project1.png)
+![connect-project2](img/connect-project2.png)
+Select proper values and click `Connect`
+
+### 4. Export env variables
+
+1. Back to `Codespaces` and execute command
+```bash
+vercel env pull .env --token=$VERCEL_TOKEN 
+```
+`.env` file should be generated.
+We now have a fully functioning Vercel Postgres database and have all the environment variables to run it locally and on Vercel.
+
+# Setup Prisma and create the database schema
+
+This guide explains the steps to setup Prisma and create database schema.
+
+### 1. Install Prisma
+
+1. Go to `Codespaces` and execute command
+```bash
+npm install prisma --save-dev --legacy-peer-deps
+```
+
+### 2. Generate schema
+
+1. Prisma schema defines two models into direcotry `prisma`, each of which will map to a table in the underlying database: User and Post.
+To actually create the tables in your database, you now can use the following command:
+```bash
+npx prisma db push
+```
+You should see following output:
+![prisma-1](img/prisma1.png)
 
 
 
