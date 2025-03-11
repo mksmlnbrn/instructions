@@ -156,6 +156,132 @@ In order to integrate Sonar into your project follow those steps:
 ### 3.3.8. ...
 
 ## 3.4 Module 4: Deployment to Free-Tier Service
+# How to Create an Account on Vercel
+
+This guide will walk you through the steps to create an account on Vercel.
+
+### 1. Sign Up Options
+
+You can sign up for a Vercel account using the following methods:
+- **Email**: Use your email address to create an account.
+- **Git Providers**: Sign up using GitHub, GitLab, or Bitbucket.
+- **Passkeys**: Use passkeys for login, which include biometric methods or hardware security keys.
+
+***In our case, we will focus on Signing Up with Email***
+
+### 2. Signing Up with Email
+
+1. Enter your email address on the [Vercel sign-up page](https://vercel.com).
+![SignUp](img/vercel-signup.png)
+![SignUp2](img/vercel-signup2.png)
+![SignUp3](img/vercel-signup3.png)
+
+2. You will receive a six-digit One-Time Password (OTP) to your email.
+![SignUp](img/vercel-signup4.png)
+3. Enter the OTP to complete the sign-up process.
+
+> **Note**: No Git provider is connected by default when using email. You will need to verify your account on every login.
+
+
+---
+
+For more details, visit the [Vercel Documentation](https://vercel.com/docs/accounts/create-an-account).
+
+
+# How to Get a Vercel API Access Token
+
+This guide explains the steps to create and manage a Vercel API Access Token.
+
+### 1. Navigate to Account Settings
+
+1. Log in to your Vercel account.
+2. In the top-right corner of the dashboard, click on your profile picture.
+3. Select **Settings** from the dropdown menu.
+
+### 2. Access the Tokens Section
+
+1. In the **Account Settings** page, locate the **Tokens** section in the sidebar.
+2. Click on **Tokens** to open the token management page.
+
+### 3. Create a New Access Token
+
+1. In **Create token** section:
+2. Enter a descriptive name for your token.
+![Token](img/vercel-token.png)
+3. Choose the scope of access for the token:
+   - Personal Account
+   - Specific Teams (if applicable)
+4. Set an expiration date for the token (optional but recommended for security).
+5. Click **Create** to generate the token.
+6. Please copy your token and store it in a safe place.
+For security reasons, you are not able to see it again.
+
+> **Important**: Make a note of the token immediately after creation, as it will not be displayed again.
+
+### 4. Use the Access Token
+
+This guide explains how to securely store access token, in your GitHub repository using repository secrets.
+
+#### 4.1. Navigate to Your Repository Settings
+
+1. Go to the main page of your GitHub repository.
+2. Under your repository name, click on **Settings**.
+
+### 4.2. Access the Secrets Section
+
+1. In the **Settings** sidebar, locate the **Security** section.
+2. Click on **Secrets and variables**, then select **Actions**.
+
+### 4.3. Add a New Repository Secret
+
+1. Click the **New repository secret** button.
+2. In the **Name** field, enter a name for your secret: `VERCEL_TOKEN`.
+3. In the **Secret** field, paste the value of your secret.
+4. Click **Add secret** to save it.
+
+
+# How to set up your Vercel Postgres database
+
+# How to Create a Vercel Postgres Database
+
+This guide explains the steps to set up a Vercel Postgres database for your project.
+
+### 1. Access the Storage Tab
+
+1. Log in to your Vercel account.
+2. Navigate to your project dashboard.
+3. Select the **Storage** tab from the project settings.
+
+### 2. Create a New Database
+
+1. Select **Neon Serverless Postgres** from the list and click **Create**.
+
+![db1](img/vercel-db1.png)
+
+2. On the **Create Database** form , select `Region` and `Installation plan`.
+
+![db2](img/vercel-db2.png)
+
+3. Click **Continue** to proceed.
+
+### 3. Configure the Database
+
+1. Enter a name for your database (e.g., `my_postgres_db`).
+   - The name can only contain alphanumeric characters, underscores (`_`), and hyphens (`-`).
+   - It must not exceed 32 characters.
+2. Click **Create** to finalize the setup.
+
+### 4. Environment Variables
+
+1. Once the database is created, Vercel automatically adds environment variables to your project:
+
+![db3](img/vercel-db3.png)
+  
+> **Important**: We just created db but is  it not connected to any project yet.
+
+
+
+
 
 ### 3.4.1. TODO
 
